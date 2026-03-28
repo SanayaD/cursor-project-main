@@ -22,3 +22,8 @@
 
 - Confusion between web version and desktop app  
   → Switched to desktop app
+  ## Issues Encountered & Solutions
+- **Issue:** Git was not configured with user identity.
+- **Solution:** Ran `git config --global` commands in the terminal to set name and email.
+- **Issue:** Command 'git' not found in Cursor terminal.
+- **Solution:** Downloaded and installed Git for Windows, then restarted the IDE to recognize the path.
